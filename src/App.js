@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>Hello</p>
+        <p>{process.env.REACT_APP_CLIENT_ID_SPOTIFY}</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
